@@ -40,7 +40,7 @@ def main(args):
   Train Model for tensorflow 2. Used at work:
 
   
-  Retrieve Discard Samples of Coateaching
+  Retrieve Discard Samples -Contrastive Learning
   '''
   print(args.dataset)
   if args.dataset=='cifar10':
@@ -342,7 +342,7 @@ def main(args):
 if __name__ == '__main__':
 
   """ 
-  Codigo piloto Implementação do Retrieve Discard Sampels (RDS) do Coateaching 
+  Codigo piloto Implementação do Retrieve Discard Sampels (RDS) Contrastive
   
   
   """
@@ -360,12 +360,3 @@ if __name__ == '__main__':
   main(args)
 
  
-#python main_coat_rds.py --noise_type symmetric --dataset cifar10 --batch_size 128 --noise_rate 0.2 --results resultados
-
-
-#python main_coat_rds.py --noise_type symmetric --dataset cifar10 --batch_size 128 --noise_rate 0.5 --results resultados
-#python main_coat_rds.py --noise_type symmetric --dataset cifar100 --batch_size 128 --noise_rate 0.2 --results resultados/cifar100_02_symmetric_on_2
-#python main_coat_rds.py --noise_type pairflip --dataset mnist --batch_size 128 --noise_rate 0.45 --results resultados/mnist_pairflip_45
-
-
-#python main_coat_rds.py --noise_type symmetric --dataset cifar10 --batch_size 128 --noise_rate 0.5 --results ../../vitor/dino_rds_c_center_2/cifar_10_sim_50/rodada_12
