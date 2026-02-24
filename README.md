@@ -15,6 +15,7 @@ docker push vitorbds/tf2_llp:tagname
 
 docker pull vitorbds/tf2_llp:tagname
 
+```
 ## Example of Running the Model
 python main_coat_rds.py \
     --noise_type pairflip \
